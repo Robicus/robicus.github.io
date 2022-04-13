@@ -5,14 +5,26 @@
     <meta charset="utf-8">
     <style>
       /* GLOBAL STYLES */
-      body {
-        height: 800px;
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 7vw;
+        margin-top: 0;
       }
       a {
         color: red;
       }
       h2 {
         font-size: 2em;
+      }
+
+      /* HERO STYLES */
+      .full-hero {
+        background-color: #c7dbfc;
+        height: 50vw;
+        width: 50vw;
       }
 
       /* SOCIAL STYLES */
@@ -26,8 +38,12 @@
       }
       .bio-box {
         border: 1px solid black;
-        font-size: 48px;
+        font-size: 1rem;
+        width: 50%;
         padding: 20px;
+      }
+      .bio-box h3 {
+        font-size: 1.5em;
       }
       .bio-copy {
         font-size: 1em;
@@ -38,18 +54,23 @@
     </style>
   </head>
   <body>
-    <h1>I'm an h1</h1>
-    <ul>
-      <li>
-        <a href="https://example.com/">Link</a>
-      </li>
-      <li>
-        <a href="https://example.com/">Link</a>
-      </li>
-      <li>
-        <a href="https://example.com/">Link</a>
-      </li>
-    </ul>
+
+    <div class="full-hero hero-home">
+
+      <h1>I'm an h1</h1>
+      <ul>
+        <li>
+          <a href="https://example.com/">Link</a>
+        </li>
+        <li>
+          <a href="https://example.com/">Link</a>
+        </li>
+        <li>
+          <a href="https://example.com/">Link</a>
+        </li>
+      </ul>
+
+  </div>
     <h2>I'm an h2</h2>
     <div class="bio-wrapper">
     <div class="bio-box">
